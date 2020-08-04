@@ -1,0 +1,207 @@
+﻿
+@mainColor: #405661;
+
+body {
+    background: @mainColor;
+}
+
+.headerbg {
+    height: 30px;
+}
+
+
+
+.contentbg {
+    .leftPart {
+        width: 300px;
+        min-height: 700px;
+        background: #5D6975;
+        float: left;
+
+        .headerpicBox {
+            position: relative;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            height: 250px;
+
+            .bg {
+                background: url(../Images/pic.jpg) no-repeat center top;
+                height: 180px;
+            }
+
+            .info {
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                text-align: center;
+                width: 100%;
+                z-index: 22;
+
+                .pic {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 1px #fff solid;
+                    margin: 0 auto;
+                }
+
+                .name {
+                    line-height: 35px;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .guanzhuBox {
+            margin: 20px 0;
+            background: #73818E;
+            padding: 20px 0;
+
+            li {
+                display: inline-block;
+                text-align: center;
+                width: 90px;
+                color: #fff;
+            }
+        }
+
+        .lastProject {
+            .title {
+                line-height: 35px;
+                font-size: 16px;
+                color: #fff;
+                padding-left: 10px;
+                border-bottom: 1px #ddd solid;
+            }
+
+            li {
+                padding: 10px;
+
+
+                .td1 {
+                    width: 60px;
+                    text-align: left;
+
+                    img {
+                        width: 60px;
+                    }
+
+                    padding-right: 10px;
+                }
+
+                .td2 {
+                    line-height: 24px;
+                    font-size: 12px;
+                    padding: 0 5px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .rightPart {
+        width: 860px;
+        background: #E5E5E5;
+        min-height: 700px;
+        float: right;
+
+        .newsBox {
+            float: left;
+            width: 600px;
+
+            .movice {
+                padding: 10px 20px 10px;
+                background: #fff;
+
+                .title {
+                    font-size: 12px;
+                    line-height: 24px;
+                    color: #666;
+
+                    a {
+                        color: deepskyblue;
+                    }
+                }
+
+                .pic {
+                    margin: 10px 0;
+                    border-radius: 4px;
+                    overflow: hidden;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .name {
+                    font-size: 14px;
+                    line-height: 28px;
+                    color: #333;
+                }
+            }
+
+            .pllist {
+                li {
+                    margin: 10px 0;
+                    padding: 10px 20px;
+                    border-bottom: 1px #ccc solid;
+
+                    .td1 {
+                        width: 60px;
+
+                        .img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 6px;
+                            overflow: hidden;
+                        }
+                    }
+
+                    .td2 {
+                        .name {
+                            line-height: 30px;
+                            color: deepskyblue;
+                        }
+
+                        .note {
+                            color: #666;
+                            font-size: 12px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .visitlog {
+            float: right;
+            width: 200px;
+
+            h5 {
+                font-weight: normal;
+                line-height: 35px;
+                color: #666;
+            }
+
+            li {
+                line-height: 30px;
+                color: #666;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.floor {
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+
+    a {
+        color: deepskyblue;
+    }
+}

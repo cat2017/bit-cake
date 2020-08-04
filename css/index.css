@@ -1,0 +1,160 @@
+body {
+  background: #405661;
+}
+.headerbg {
+  height: 30px;
+}
+.contentbg .leftPart {
+  width: 300px;
+  min-height: 700px;
+  background: #5D6975;
+  float: left;
+}
+.contentbg .leftPart .headerpicBox {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 250px;
+}
+.contentbg .leftPart .headerpicBox .bg {
+  background: url(../Images/pic.jpg) no-repeat center top;
+  height: 180px;
+}
+.contentbg .leftPart .headerpicBox .info {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 22;
+}
+.contentbg .leftPart .headerpicBox .info .pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px #fff solid;
+  margin: 0 auto;
+}
+.contentbg .leftPart .headerpicBox .info .name {
+  line-height: 35px;
+  color: #fff;
+  font-size: 16px;
+}
+.contentbg .leftPart .guanzhuBox {
+  margin: 20px 0;
+  background: #73818E;
+  padding: 20px 0;
+}
+.contentbg .leftPart .guanzhuBox li {
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  color: #fff;
+}
+.contentbg .leftPart .lastProject .title {
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 10px;
+  border-bottom: 1px #ddd solid;
+}
+.contentbg .leftPart .lastProject li {
+  padding: 10px;
+}
+.contentbg .leftPart .lastProject li .td1 {
+  width: 60px;
+  text-align: left;
+  padding-right: 10px;
+}
+.contentbg .leftPart .lastProject li .td1 img {
+  width: 60px;
+}
+.contentbg .leftPart .lastProject li .td2 {
+  line-height: 24px;
+  font-size: 12px;
+  padding: 0 5px;
+  color: #fff;
+}
+.contentbg .rightPart {
+  width: 860px;
+  background: #E5E5E5;
+  min-height: 700px;
+  float: right;
+}
+.contentbg .rightPart .newsBox {
+  float: left;
+  width: 600px;
+}
+.contentbg .rightPart .newsBox .movice {
+  padding: 10px 20px 10px;
+  background: #fff;
+}
+.contentbg .rightPart .newsBox .movice .title {
+  font-size: 12px;
+  line-height: 24px;
+  color: #666;
+}
+.contentbg .rightPart .newsBox .movice .title a {
+  color: deepskyblue;
+}
+.contentbg .rightPart .newsBox .movice .pic {
+  margin: 10px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.contentbg .rightPart .newsBox .movice .pic img {
+  max-width: 100%;
+}
+.contentbg .rightPart .newsBox .movice .name {
+  font-size: 14px;
+  line-height: 28px;
+  color: #333;
+}
+.contentbg .rightPart .newsBox .pllist li {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-bottom: 1px #ccc solid;
+}
+.contentbg .rightPart .newsBox .pllist li .td1 {
+  width: 60px;
+}
+.contentbg .rightPart .newsBox .pllist li .td1 .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.contentbg .rightPart .newsBox .pllist li .td2 .name {
+  line-height: 30px;
+  color: deepskyblue;
+}
+.contentbg .rightPart .newsBox .pllist li .td2 .note {
+  color: #666;
+  font-size: 12px;
+  line-height: 24px;
+}
+.contentbg .rightPart .visitlog {
+  float: right;
+  width: 200px;
+}
+.contentbg .rightPart .visitlog h5 {
+  font-weight: normal;
+  line-height: 35px;
+  color: #666;
+}
+.contentbg .rightPart .visitlog li {
+  line-height: 30px;
+  color: #666;
+  font-size: 12px;
+}
+.floor {
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 12px;
+}
+.floor a {
+  color: deepskyblue;
+}

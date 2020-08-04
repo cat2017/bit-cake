@@ -1,0 +1,169 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul, li, ol, i, b, p, dd, dt, h1, h2, h3, h4, h5, p {
+    font-style: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.cls, .clear, .clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nothing {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+}
+/*动画
+*/
+.fadeInLeftBig {
+    animation: fadeInLeftBig 1s;
+}
+
+.fadeInRightBig {
+    animation: fadeInRightBig 1s;
+}
+
+.fadeInRightBig {
+    animation: fadeInRightBig 1s;
+}
+
+
+.fadeInDownBig {
+    animation: fadeInDownBig 1s;
+}
+
+.fadeInUpBig {
+    animation: fadeInUpBig 1s;
+}
+
+.fadeInDown {
+    animation: fadeInDown 1s;
+}
+
+.rotateInUpLeft {
+    animation: rotateInUpLeft 1s;
+}
+
+.bounceIn {
+    animation: bounceIn 1s;
+}
+
+.bounceInLeft {
+    animation: bounceInLeft 1s;
+}
+
+.rotateOut {
+    animation: rotateOut 1s;
+}
+
+.flipInX {
+    animation: flipInX 1s;
+}
+
+.ng-status-green, .ng-green {
+    color: green !important;
+}
+
+.ng-status-yellow, .ng-yellow {
+    color: yellow !important;
+}
+
+.ng-status-red, .ng-red {
+    color: #F56C6C !important;
+}
+
+.ng-kafei {
+    color: #F56C6C !important;
+}
+
+.ng-gray {
+    color: gray !important;
+}
+
+.ng-worn {
+    color: #e6a23c !important;
+}
+
+.ng-input200 {
+    width: 200px !important;
+}
+
+.ng-input120 {
+    width: 120px !important;
+}
+
+.ng-input300 {
+    width: 300px !important;
+}
+
+.ng-input400 {
+    width: 400px !important;
+}
+
+.ng-input600 {
+    width: 600px !important;
+}
+
+.ng-input100 {
+    width: 100px !important;
+}
+
+.ng-input80 {
+    width: 80px !important;
+}
+
+.ng-input60 {
+    width: 60px !important;
+}
+
+.ng-input800 {
+    width: 800px !important;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #C1C4CC;
+    font-size: 12px;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+    color: #C1C4CC;
+    font-size: 12px;
+}
+
+input:-ms-input-placeholder { /* IE 10+ */
+    color: #C1C4CC;
+    font-size: 12px;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #C1C4CC;
+    font-size: 12px;
+}
+
+.mycontainer {
+    width: 1200px;
+    margin: 0 auto;
+}
